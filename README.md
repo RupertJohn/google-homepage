@@ -1,0 +1,1 @@
+This project is an attempt at recreating the Google homepage.  It hopes to primarily mimic the layout and basic design to gain familiarity with manipulating and applying styles to elements in the DOM.
