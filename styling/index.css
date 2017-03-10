@@ -1,35 +1,51 @@
+div {
+  display: block;
+}
+
+.nav-bar-top-right {
+  float: right;
+}
+
+.nav-bar-top-right li{
+  display: inline;
+}
+
 .google-elements{
   position: relative;
+  display: block;
   margin: auto;
   width: 50%;
 }
 
-#logo{
+.form, #logo{
   position: absolute;
-  padding-top: 460px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+#logo{
+  padding-top: 460px;
 }
 
 .form{
-  position: absolute;
   padding-top: 710px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 .search-bar{
-  width:565px;
+  width:525px;
   height:38px;
+  padding: 0 20px;
+  font-size: 100%;
 }
 
 #search, #lucky{
+  background: #f2f2f2;
   margin-top: 30px;
   border: 1px;
   border-radius: 2px;
   padding: 10px 10px;
+
 }
 
 #search {
@@ -38,13 +54,11 @@
 }
 
 .footer {
-  clear: left;
   background: #f2f2f2;
-  height: 20px;
-  position: relative;
-  /*width: 100%;
-
-  background-color: gray;
+  position: fixed;
   margin: 0;
-  bottom: 0;*/
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
 }
