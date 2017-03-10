@@ -1,0 +1,50 @@
+.google-elements{
+  position: relative;
+  margin: auto;
+  width: 50%;
+}
+
+#logo{
+  position: absolute;
+  padding-top: 460px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form{
+  position: absolute;
+  padding-top: 710px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.search-bar{
+  width:565px;
+  height:38px;
+}
+
+#search, #lucky{
+  margin-top: 30px;
+  border: 1px;
+  border-radius: 2px;
+  padding: 10px 10px;
+}
+
+#search {
+  margin-left: 180px;
+  margin-right: 5px;
+}
+
+.footer {
+  clear: left;
+  background: #f2f2f2;
+  height: 20px;
+  position: relative;
+  /*width: 100%;
+
+  background-color: gray;
+  margin: 0;
+  bottom: 0;*/
+}
